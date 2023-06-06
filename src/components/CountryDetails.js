@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Box, Typography, makeStyles } from "@material-ui/core";
 
-const CountrySearch = () => {
+const CountryDetails = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCountry, setSelectedCountry] = useState(null);
 
@@ -96,4 +96,4 @@ const useStyles = makeStyles((theme) => ({
   );
 };
 
-export default CountrySearch;
+export default CountryDetails;
